@@ -3,12 +3,14 @@ import java.util.Scanner;
 public class FuncionesEj4 {
 
 	public static void main(String[] args) {
+
+	public static int esPrimo() {
 		Scanner sc = new Scanner(System.in);
 		// pido numero hasta que sea primo
 		int n;
 		boolean entra = false;
 		do {
-			
+
 			try {
 				System.out.println("Escribe un numero para ver se es primo");
 				String s = sc.nextLine();
@@ -38,7 +40,8 @@ public class FuncionesEj4 {
 			}
 
 		} while (true);
-		return n;
+		retunr n;
+
 	}
 
-}
+	}
